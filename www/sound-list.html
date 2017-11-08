@@ -1,0 +1,47 @@
+﻿<div data-page="sound-detail" class="page">
+    <input type="hidden" name="hdnIdList" />
+
+    <!-- Begin: Navbar -->
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" class="link icon-only back">
+                    <i class="icon icon-back"></i>
+                </a>
+            </div>
+            <div class="center" name="divTypeName">Sesler</div>
+        </div>
+    </div>
+    <!-- End: Navbar -->
+    <!-- Begin: Search Bar -->
+    <form class="searchbar searchbar-init" data-search-list=".list-block-search" data-search-in=".item-title">
+        <div class="searchbar-input">
+            <input type="search" placeholder="Aranacak Değer" />
+            <a href="#" class="searchbar-clear"></a>
+        </div>
+    </form>
+    <!-- End: Search Bar -->
+
+    <div class="searchbar-overlay"></div>
+
+    <!-- Begin: Page Content -->
+    <div class="page-content">
+
+        <!--<div class="content-block">
+            <p name="divTypeDetail">Search Bar allows user to search through List View elements.</p>
+            <p class="buttons-row">
+                <button type="button" name="btnSelectAll" class="button button-fill color-indigo"></button>
+            </p>
+        </div>-->
+
+        <div class="content-block searchbar-not-found">
+            <p>Sonuç bulunamadı</p>
+        </div>
+
+        <div class="list-block list-block-search searchbar-found">
+            <ul name="divResults"></ul>
+        </div>
+
+    </div>
+    <!-- End: Page Content -->
+</div>

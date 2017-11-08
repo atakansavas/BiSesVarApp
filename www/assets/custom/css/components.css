@@ -1,0 +1,229 @@
+/*
+|------------------------------------------------------------------------------
+| Hamburgers
+|------------------------------------------------------------------------------
+*/
+
+.page[data-page=hamburgers] .hamburgers {
+    text-align: center;
+}
+
+    .page[data-page=hamburgers] .hamburgers .content-block {
+        padding-top: 2px;
+    }
+
+        .page[data-page=hamburgers] .hamburgers .content-block p {
+            color: #FFFFFF;
+        }
+
+/*
+|------------------------------------------------------------------------------
+| Layout Grids
+|------------------------------------------------------------------------------
+*/
+
+.page[data-page=layout-grids] .row {
+    margin-bottom: 15px;
+}
+
+.page[data-page=layout-grids] [class*='col-'] {
+    background-color: #2196F3;
+    border: 1px dotted #BDC3C7;
+    color: #FFFFFF;
+    padding: 5px;
+    text-align: center;
+}
+
+.theme-red .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #F44336;
+}
+
+.theme-pink .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #E91E63;
+}
+
+.theme-purple .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #9C27B0;
+}
+
+.theme-deeppurple .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #673AB7;
+}
+
+.theme-indigo .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #3F51B5;
+}
+
+.theme-blue .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #2196F3;
+}
+
+.theme-lightblue .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #03A9F4;
+}
+
+.theme-cyan .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #00BCD4;
+}
+
+.theme-teal .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #009688;
+}
+
+.theme-green .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #4CAF50;
+}
+
+.theme-lightgreen .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #8BC34A;
+}
+
+.theme-lime .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #CDDC39;
+}
+
+.theme-yellow .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #FFEB3B;
+}
+
+.theme-amber .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #FFC107;
+}
+
+.theme-orange .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #FF9800;
+}
+
+.theme-deeporange .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #FF5722;
+}
+
+.theme-brown .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #795548;
+}
+
+.theme-gray .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #9E9E9E;
+}
+
+.theme-bluegray .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #607D8B;
+}
+
+.theme-white .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #FFFFFF;
+}
+
+.theme-black .page[data-page=layout-grids] [class*='col-'] {
+    background-color: #000000;
+}
+
+/*
+|------------------------------------------------------------------------------
+| Pricing Table
+|------------------------------------------------------------------------------
+*/
+
+.page[data-page=pricing-table] .page-content > .content-block {
+    margin: 8px 0;
+}
+
+.page[data-page=pricing-table] .row [class*='col-'] {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.page[data-page=pricing-table] .row [class*='tablet-'] {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+/*
+|------------------------------------------------------------------------------
+| Swiper Slider
+|------------------------------------------------------------------------------
+*/
+
+.page[data-page=swiper-slider] .swiper-container {
+    height: 100%;
+}
+
+.page[data-page=swiper-slider] .swiper-slide {
+    background-color: #F1F2F1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 16px;
+    position: relative;
+}
+
+    .page[data-page=swiper-slider] .swiper-slide:before {
+        background-color: rgba(128, 128, 128, 0.5);
+        content: '';
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+.page[data-page=swiper-slider] .slide-content {
+    align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 32px);
+    justify-content: flex-end;
+    position: relative;
+    text-align: center;
+}
+
+/*
+|------------------------------------------------------------------------------
+| Scroll Bar
+|------------------------------------------------------------------------------
+*/
+
+*::-webkit-scrollbar {
+    height: 2px;
+    width: 3px;
+}
+
+*::-webkit-scrollbar-button {
+    height: 0px;
+    width: 0px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #666666;
+    border: 0px none #FFFFFF;
+    border-radius: 50px;
+}
+
+    *::-webkit-scrollbar-thumb:hover {
+        background: #444444;
+    }
+
+    *::-webkit-scrollbar-thumb:active {
+        background: #222222;
+    }
+
+*::-webkit-scrollbar-track {
+    background: #EEEEEE;
+    border: 0px none #FFFFFF;
+    border-radius: 50px;
+}
+
+    *::-webkit-scrollbar-track:hover {
+        background: #EEEEEE;
+    }
+
+    *::-webkit-scrollbar-track:active {
+        background: #EEEEEE;
+    }
+
+*::-webkit-scrollbar-corner {
+    background: transparent;
+}

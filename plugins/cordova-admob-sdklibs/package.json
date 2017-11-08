@@ -1,0 +1,33 @@
+{
+  "name": "cordova-admob-sdklibs",
+  "version": "2.1.6",
+  "description": "Add Google Mobile Ads SDK to Cordova project, as dependency for other plugins",
+  "cordova": {
+    "id": "cordova-admob-sdklibs",
+    "platforms": [
+      "android",
+      "ios",
+      "amazon-fireos",
+      "wp8",
+      "windows"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunnycupertino/cordova-admob-sdklibs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sunnycupertino/cordova-admob-sdklibs/issues"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "ad",
+    "admob",
+    "google"
+  ],
+  "author": {
+    "name": "Sunny Cupertino"
+  },
+  "license": "MIT"
+}

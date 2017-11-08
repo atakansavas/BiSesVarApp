@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Begin: Basic Meta Tags -->
+    <meta charset="UTF-8" /> <!-- Set character encoding -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" /> <!-- Internet Explorer compatibility mode -->
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1254" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" /> <!-- For responsiveness on mobile browsers -->
+    <!-- End: Basic Meta Tags -->
+    <!-- Begin: Content Security Policy Meta Tags -->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src: 'self' 'unsafe-inline' 'unsafe-eval'">-->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-eval' data: blob: filesystem: ws: gap: cdvfile: https://ssl.gstatic.com *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; child-src *;" />
+
+    <!-- Allows control over where the resources are loaded from -->
+    <!-- End: Content Security Policy Meta Tags -->
+    <!-- Begin: Stylesheets -->
+    <link rel="stylesheet" href="assets/vendor/framework7/css/framework7.material.min.css" />
+    <link rel="stylesheet" href="assets/vendor/framework7/css/framework7.material.colors.min.css" />
+    <link rel="stylesheet" href="assets/vendor/framework7-plugins/keypad/framework7.keypad.min.css" />
+    <link rel="stylesheet" href="assets/vendor/framework7-plugins/indexed-list/framework7.indexed-list.min.css" />
+    <link rel="stylesheet" href="assets/vendor/framework7-plugins/toast/toast.css" />
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css" />
+    <link rel="stylesheet" href="assets/vendor/material-icons/material-icons.css" />
+    <link rel="stylesheet" href="assets/vendor/pattern-lock/patternLock.css" />
+    <link rel="stylesheet" href="assets/vendor/rateyo/jquery.rateyo.min.css" />
+    <link rel="stylesheet" href="assets/vendor/tooltipster/css/tooltipster.bundle.min.css" />
+    <link rel="stylesheet" href="assets/vendor/tooltipster/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.min.css" />
+
+    <link rel="stylesheet" href="assets/vendor/nectar/nectar.css" />
+
+    <link rel="stylesheet" href="assets/custom/css/components.css" />
+    <link rel="stylesheet" href="assets/custom/css/pages.css" />
+    <!-- End: Stylesheets -->
+
+    <title>BiSesVar</title>
+</head>
+
+<body class="theme-amber layout-light">
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+
+    <!-- Begin: Left Side Panel -->
+    <div class="panel panel-left panel-reveal">
+        <div class="panel-header">
+            <div class="user-info">
+                <img class="user-photo" src="assets/images/logo_64.png" width="64" height="64" alt="Avatar" />
+                <div class="user-name">Bi ' Ses Var</div>
+                <div class="user-location">
+                    <span>mobil ses arşivi</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="list-block no-hairlines no-hairlines-between">
+            <ul>
+                <li>
+                    <a href="home.html" class="item-link close-panel">
+                        <div class="item-content">
+                            <div class="item-media">
+                                <img src="assets/images/anasayfa.png" width="24" alt="Home" />
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Anasayfa</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="most-favorites.html" class="item-link close-panel">
+                        <div class="item-content">
+                            <div class="item-media">
+                                <img src="assets/images/favoriler.png" width="24" alt="Favoriler" />
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">En Çok Paylaşılanlar</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="player-lucky.html" class="item-link close-panel">
+                        <div class="item-content">
+                            <div class="item-media">
+                                <img src="assets/images/sansli.png" width="24" alt="Pages" />
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Çok Şanslıyım</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="about-us.html" class="item-link close-panel">
+                        <div class="item-content">
+                            <div class="item-media">
+                                <img src="assets/images/hakkinda.png" width="24" alt="Settings" />
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Hakkında</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <!--<a href="settings.html" class="item-link close-panel">
+                        <div class="item-content">
+                            <div class="item-media">
+                                <img src="assets/images/ayarlar.png" width="24" alt="Settings" />
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Ayarlar</div>
+                            </div>
+                        </div>
+                    </a>-->
+                    <a href="javascript::;" name="btnRateApp" class="item-link close-panel">
+                        <div class="item-content">
+                            <div class="item-media">
+                                <img src="assets/images/paylas.png" width="24" alt="Oyla" />
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Uygulamayı Oyla</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End: Left Side Panel -->
+
+    <div class="views">
+        <div class="view view-main">
+            <div class="pages navbar-fixed">
+                <div data-page="splash-screen" class="page no-navbar">
+                    <!-- Begin: Page Content -->
+                    <div class="page-content">
+
+                        <div class="splash">
+                            <div class="splash-media">
+                                <img class="logo" src="assets/images/logo_512.svg" />
+                            </div>
+                            <div class="splash-preloader" style="opacity:1">
+                                <span class="preloader preloader-yellow"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End: Page Content -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Begin: Scripts -->
+    <script type="text/javascript" src="cordova.js"></script>
+
+    <script type="text/javascript" src="assets/vendor/jquery/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="assets/vendor/framework7/js/framework7.min.js"></script>
+    <!--<script type="text/javascript" src="http://bisesvar.xyz/deneme.js"></script>-->
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBaKg_jugnWgVDx8BqIIkRBD93q9VHnJS8",
+            authDomain: "bi-ses-var.firebaseapp.com",
+            databaseURL: "https://bi-ses-var.firebaseio.com",
+            projectId: "bi-ses-var",
+            storageBucket: "bi-ses-var.appspot.com",
+            messagingSenderId: "531441806629"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+    <script type="text/javascript" src="assets/vendor/framework7-plugins/keypad/framework7.keypad.min.js"></script>
+    <script type="text/javascript" src="assets/vendor/framework7-plugins/indexed-list/framework7.indexed-list.min.js"></script>
+    <script type="text/javascript" src="assets/vendor/framework7-plugins/toast/toast.js"></script>
+    <script type="text/javascript" src="assets/vendor/jquery-validation/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="assets/vendor/jquery-validation/additional-methods.min.js"></script>
+    <script type="text/javascript" src="assets/vendor/pattern-lock/patternLock.min.js"></script>
+    <script type="text/javascript" src="assets/vendor/rateyo/jquery.rateyo.min.js"></script>
+    <script type="text/javascript" src="assets/vendor/tooltipster/js/tooltipster.bundle.min.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+    <script type="text/javascript" src="scripts/init.js"></script>
+    <script type="text/javascript" src="assets/vendor/nectar/nectar.js"></script>
+    <script type="text/javascript" src="scripts/components.js"></script>
+    <script type="text/javascript" src="scripts/utility.js"></script>
+    <script type="text/javascript" src="scripts/database.js"></script>
+    <script type="text/javascript" src="scripts/pages.js"></script>
+    <script type="text/javascript">
+        'use strict';
+
+        (function () {
+            myApp.init();
+        })();
+    </script>
+    <!-- End: Scripts -->
+</body>
+</html>

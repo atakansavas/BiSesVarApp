@@ -1,0 +1,65 @@
+﻿<div data-page="player-favorites" class="page">
+    <audio src="" id="ctrlAudio"></audio>
+    <input type="hidden" name="hdnPlayedId" id="hdnPlayedId" value="0" />
+
+    <!-- Begin: Navbar -->
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" class="link icon-only back">
+                    <i class="icon icon-back"></i>
+                </a>
+            </div>
+            <div class="center" name="divTypeName">Çok Paylaşılanlar</div>
+        </div>
+    </div>
+    <!-- End: Navbar -->
+    <!-- Begin: Page Content -->
+    <div class="page-content">
+        <div class="content-block text-center" style="margin:0">
+            <h3 name="txtTitle" id="txtTitle">?</h3>
+            <h5 name="txtDesc" id="txtDesc">?</h5>
+        </div>
+        <div class="content">
+            <div class="control" id="js-control">
+                <div class="control__balls">
+                    <div class="control__ball"></div>
+                    <div class="control__ball"></div>
+                    <div class="control__ball"></div>
+                    <div class="control__ball"></div>
+                    <div class="control__ball"></div>
+                    <div class="control__ball"></div>
+                    <div class="control__ball"></div>
+                    <div class="control__ball"></div>
+                    <div class="control__ball"></div>
+                    <div class="control__ball"></div>
+                    <div class="control__ball"></div>
+                    <div class="control__ball"></div>
+                </div>
+                <div class="control__button" name="js-control-button" id="js-control-button">
+                    <i id="btnPlayPause" class="morph-play"></i>
+                </div>
+            </div>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                    <feBlend in="SourceGraphic" in2="goo" />
+                </filter>
+            </defs>
+        </svg>
+
+    </div>
+    <!-- End: Page Content -->
+    <!-- Begin: Bottom Toolbar -->
+    <div class="toolbar toolbar-bottom">
+        <div class="toolbar-inner">
+            <a href="javascript::;" name="btnShare" id="btnShare" class="button button-fill color-bluegray">Paylaş</a>
+            <a href="javascript::;" name="btnNext" id="btnNext" class="button button-fill color-green">Sonraki</a>
+        </div>
+    </div>
+    <!-- End: Bottom Toolbar -->
+</div>

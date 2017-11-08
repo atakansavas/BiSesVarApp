@@ -1,0 +1,82 @@
+{
+  "name": "cordova-plugin-admob-simple",
+  "version": "3.3.4",
+  "description": "The FASTEST and EASIEST TO USE Cordova Admob plugin for Android, iOS and Windows phone. We do not send your apps details to our servers. Pure OpenSource Admob code. Allows preloading and automatic loading of interstitials and banners plus more. Works with Cordova, Phonegap, Intel XDK/Crosswalk, Ionic, Meteor and more.",
+  "cordova": {
+    "id": "cordova-plugin-admob-simple",
+    "platforms": [
+      "android",
+      "ios",
+      "wp8",
+      "windows"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunnycupertino/cordova-plugin-admob-simple.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sunnycupertino/cordova-plugin-admob-simple/issues"
+  },
+  "keywords": [
+    "cordova",
+    "admob",
+    "plugin",
+    "phonegap",
+    "intel-xdk",
+    "intel",
+    "xdk",
+    "crosswalk",
+    "ionic",
+    "meteor",
+    "ad",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-wp8",
+    "google",
+    "ads",
+    "eclipse",
+    "android-studio",
+    "simple",
+    "android",
+    "ios",
+    "windows",
+    "phonegap",
+    "monetization",
+    "monetisation",
+    "money",
+    "banner",
+    "interstitial",
+    "advertisement",
+    "advertising",
+    "earn",
+    "cordova-admob",
+    "admobpro"
+  ],
+  "tonicExampleFilename": "test.js",
+  "author": {
+    "name": "Cupertino"
+  },
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf www",
+    "build": "babel src/js --out-dir www",
+    "version": "sync-package-version --cordova-plugin",
+    "test": "cordova-test"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "cordova-android": "^6.0.0",
+    "cordova-test-cli": "0.0.1",
+    "npm-run-all": "^3.1.1",
+    "rimraf": "^2.5.4",
+    "sync-package-version": "0.0.3"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
